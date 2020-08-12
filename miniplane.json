@@ -1,0 +1,79 @@
+
+  [
+    {
+      "miniAttribute": "jsonStr111",
+      "miniBackground": "http://serverIP/cloudEditor/miniplane/default/background01.png",
+      "miniID": "10010002",
+      "miniTitle": "产品产量表111",
+      "type": "mini-panel",
+      "注释":"已经确定好的minipanel文件格式类型"
+  },
+    {
+      "MiniID":"10010001",
+      "Type": "mini-panel",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background01.png",
+      "MiniAttribute": {
+        "注释": "场景配置文件中的minipanel,当 ObjectName(vr-key) 为空时表示当前小面板尚未与任何对象绑定,不为空时，标识已经绑定，且生成的属性的value值即为数据配置文件中的sr-key",
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+      }
+    },
+    {
+      "MiniID":"10010002",
+      "Type": "mini-panel",
+      "me-name": "",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background02.png",
+      "MiniAttribute": {
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+
+      }
+    },
+    {
+      "MiniID":"10010003",
+      "Type": "mini-panel",
+      "sc-key": "",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background03.png",
+      "MiniAttribute": {
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+      }
+    },
+    {
+      "MiniID":"10010004",
+      "Type": "mini-panel",
+      "sc-key": "",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background04.png",
+      "MiniAttribute": {
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+      }
+    },
+    {
+      "MiniID":"10010005",
+      "Type": "mini-panel",
+      "sc-key": "",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background05.png",
+      "MiniAttribute": {
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+      }
+    },
+    {
+      "MiniID": "10010006",
+      "Type": "mini-panel",
+      "sc-key": "",
+      "MiniTitle": "产品产量表",
+      "MiniBackground": "http://serverIP/cloudEditor/miniplane/default/background06.png",
+      "MiniAttribute": {
+        "产量": "1_3_包装机_product",
+        "成品率": "1_3_包装机_product"
+      }
+    }
+  ]
+

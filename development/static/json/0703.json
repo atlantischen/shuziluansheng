@@ -1,0 +1,221 @@
+{
+    "注释": "在object对象中，modelContent表示三维对象的层级关系，InteractiveEvent：ture标识可以被事件绑定、InteractiveControl:false表示不能进行控制，EventType：1表示绑定的小面板，0表示没有绑定事件，2表示绑定划动事件",
+    "注释": "EventType:1",
+
+    "sceneData": {
+        "BackgroundColor": "0x777777",
+        "Fog": {
+            "Color": "0xffffff",
+            "Near": "10000",
+            "Far": "100000"
+        }
+    },
+
+    "camera": {
+        "Name": "camera",
+        "FOV": 75,
+        "Near": 1,
+        "Far": 100000,
+        "Type": "PerspectiveCamera",
+        "Position": [1000, 20000, 10000],
+        "Target": [0, 200, 0],
+        "InteractiveEvent": false,
+        "InteractiveControl": true
+    },
+    "light": {
+        "Name": "Light",
+        "Color": "#ffffff",
+        "Opacity": "1",
+        "Type": "DirectionalLight",
+        "Position": [1, 1, 1],
+        "InteractiveEvent": false,
+        "InteractiveControl": true
+    },
+    "object": [{
+        "Path": "../static/models/fbx/0703/JZ.FBX",
+        "Name": "车间1_工位_1",
+        "Position": [8000, 0, 8000],
+        "rotationY": 0,
+        "visible": true,
+        "InteractiveEvent": false,
+        "InteractiveControl": true,
+        "modelContent": {
+            "modelName": "车间1_工位_1",
+            "modelType": "group",
+            "data": [{
+                    "Name": "车间1_工位_1_主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_1_包装主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_1_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_1_其他",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                },
+                {
+                    "Name": "车间1_工位_1_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                }
+            ]
+        }
+    }, {
+        "Path": "../static/models/fbx/0703/JZ.FBX",
+        "Name": "车间1_工位_2",
+        "Position": [0, 0, 0],
+        "rotationY": 0,
+        "InteractiveControl": true,
+        "visible": true,
+        "InteractiveEvent": false,
+        "InteractiveControl": true,
+        "modelContent": {
+            "modelName": "车间1_工位_2",
+            "modelType": "group",
+            "data": [{
+                    "Name": "车间1_工位_2_主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_2_包装主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_2_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_2_其他",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                },
+                {
+                    "Name": "车间1_工位_2_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                }
+            ]
+        }
+    }, {
+        "Path": "../static/models/fbx/0703/JZ.FBX",
+        "Name": "车间1_工位_3",
+        "Position": [-8000, 0, -8000],
+        "rotationY": 0,
+        "visible": true,
+        "InteractiveEvent": false,
+        "InteractiveControl": true,
+        "modelContent": {
+            "modelName": "车间1_工位_3",
+            "modelType": "group",
+            "data": [{
+                    "Name": "车间1_工位_3_主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_3_包装主机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_3_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": true,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0,
+                    "EventType": 1,
+                    "EventContent": "miniplaneId"
+                },
+                {
+                    "Name": "车间1_工位_3_其他",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                },
+                {
+                    "Name": "车间1_工位_3_包装辅机",
+                    "Type": "mesh",
+                    "InteractiveEvent": false,
+                    "InteractiveControl": false,
+                    "Position": [0, 0, 0],
+                    "RotationY": 0
+                }
+            ]
+        }
+    }, {
+        "Path": "../static/models/fbx/0703/CAD.FBX",
+        "Name": "floor",
+        "rotationY": 0,
+        "Position": [0, 0, 0],
+        "visible": true,
+        "InteractiveEvent": false,
+        "InteractiveControl": true
+    }]
+}

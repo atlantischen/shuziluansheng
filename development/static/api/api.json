@@ -1,0 +1,14 @@
+{
+  "baseroot": {
+    "ResourceManagementService": "http://192.168.89.177:9081",
+    "SceneFileManagementService": "http://192.168.89.177:9082",
+    "StyleFileManagementService": "http://192.168.89.177:9083",
+    "DataitemFileManagementService": "http://192.168.89.177:9084",
+    "DataFilesManagementService": "http://192.168.89.177:9085",
+    "DataInterfaceService": "http://192.168.89.177:9086",
+    "DataInterfaceRestfulService": "http://192.168.89.177:9087",
+    "ViewerServer": "http://192.168.89.213:8081",
+    "test": "http://192.168.89.237:8082",
+    "CClient":"http://192.168.89.213:8081/VRControl.rar"
+  }
+}

@@ -1,0 +1,369 @@
+[{
+	"id": "mechinestatePanel",
+	"index": "",
+	"level": "",
+	"objectID": "",
+	"datas": [{
+		"vrkey": "E03-CHCTCV-运行状态",
+		"mcid": "EB3",
+		"sckey": "辅机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E03-GDX1-运行状态",
+		"mcid": "EB3",
+		"sckey": "小包机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E03-PROTO70-运行状态",
+		"mcid": "EJ3",
+		"sckey": "机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E04-CHCTCV-运行状态",
+		"mcid": "EB4",
+		"sckey": "辅机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E04-GDX1-运行状态",
+		"mcid": "EB4",
+		"sckey": "小包机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E04-PROTO70-运行状态",
+		"mcid": "EJ4",
+		"sckey": "机器状态",
+		"value": 0
+	},{
+		"vrkey": "E05-CHCTCV-运行状态",
+		"mcid": "EB5",
+		"sckey": "辅机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E05-GDX1-运行状态",
+		"mcid": "EB5",
+		"sckey": "小包机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E05-PROTO70-运行状态",
+		"mcid": "EJ5",
+		"sckey": "机器状态",
+		"value": 0
+	},{
+		"vrkey": "E06-CHCTCV-运行状态",
+		"mcid": "EB6",
+		"sckey": "辅机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E06-GDX1-运行状态",
+		"mcid": "EB6",
+		"sckey": "小包机_机器状态",
+		"value": 0
+	}, {
+		"vrkey": "E06-PROTO70-运行状态",
+		"mcid": "EJ6",
+		"sckey": "机器状态",
+		"value": 0
+	}]
+}, {
+	"id": "mechinestatePanel",
+	"index": "",
+	"level": "",
+	"objectID": "",
+	"datas": [{
+		"vrkey": "E03-CHCTCV-机器状态信息",
+		"mcid": "EB3",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E03-GDX1-机器状态信息",
+		"mcid": "EB3",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E03-PROTO70-机器状态信息",
+		"mcid": "EJ3",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E04-CHCTCV-机器状态信息",
+		"mcid": "EB4",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E04-GDX1-机器状态信息",
+		"mcid": "EB4",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E04-PROTO70-机器状态信息",
+		"mcid": "EJ4",
+		"sckey": "机器状态信息",
+		"value": 0
+	},{
+		"vrkey": "E05-CHCTCV-机器状态信息",
+		"mcid": "EB5",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E05-GDX1-机器状态信息",
+		"mcid": "EB5",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E05-PROTO70-机器状态信息",
+		"mcid": "EJ5",
+		"sckey": "机器状态信息",
+		"value": 0
+	},{
+		"vrkey": "E06-CHCTCV-机器状态信息",
+		"mcid": "EB6",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E06-GDX1-机器状态信息",
+		"mcid": "EB6",
+		"sckey": "机器状态信息",
+		"value": 0
+	}, {
+		"vrkey": "E06-PROTO70-机器状态信息",
+		"mcid": "EJ6",
+		"sckey": "机器状态信息",
+		"value": 0
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N11",
+	"level": 2,
+	"index": 3,
+	"type": "max-panel",
+	"datas": [{
+		"mcid":"EJ3",
+		"sckey":"产量",
+		"vrkey": "E03-PROTO70-产量",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"生产速度",
+		"vrkey": "E03-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"效率",
+		"vrkey": "E03-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"利用率",
+		"vrkey": "E03-PROTO70-利用率",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"运行状态",
+		"vrkey": "E03-PROTO70-运行状态",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"废品率",
+		"vrkey": "E03-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N11",
+	"level": 2,
+	"index": 3,
+	"type": "min-panel",
+	"datas": [{
+		"mcid":"EJ3",
+		"sckey":"生产速度",
+		"vrkey": "E03-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"效率",
+		"vrkey": "E03-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ3",
+		"sckey":"废品率",
+		"vrkey": "E03-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N12",
+	"level": 2,
+	"index": 3,
+	"type": "max-panel",
+	"datas": [{
+		"mcid":"EJ4",
+		"sckey":"产量",
+		"vrkey": "E04-PROTO70-产量",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"生产速度",
+		"vrkey": "E04-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"效率",
+		"vrkey": "E04-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"利用率",
+		"vrkey": "E04-PROTO70-利用率",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"运行状态",
+		"vrkey": "E04-PROTO70-运行状态",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"废品率",
+		"vrkey": "E04-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N12",
+	"level": 2,
+	"index": 3,
+	"type": "min-panel",
+	"datas": [{
+		"mcid":"EJ4",
+		"sckey":"生产速度",
+		"vrkey": "E04-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"效率",
+		"vrkey": "E04-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ4",
+		"sckey":"废品率",
+		"vrkey": "E04-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N13",
+	"level": 2,
+	"index": 3,
+	"type": "max-panel",
+	"datas": [{
+		"mcid":"EJ5",
+		"sckey":"产量",
+		"vrkey": "E05-PROTO70-产量",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"生产速度",
+		"vrkey": "E05-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"效率",
+		"vrkey": "E05-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"利用率",
+		"vrkey": "E05-PROTO70-利用率",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"运行状态",
+		"vrkey": "E05-PROTO70-运行状态",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"废品率",
+		"vrkey": "E05-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N13",
+	"level": 2,
+	"index": 3,
+	"type": "min-panel",
+	"datas": [{
+		"mcid":"EJ5",
+		"sckey":"生产速度",
+		"vrkey": "E05-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"效率",
+		"vrkey": "E05-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ5",
+		"sckey":"废品率",
+		"vrkey": "E05-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N14",
+	"level": 2,
+	"index": 3,
+	"type": "max-panel",
+	"datas": [{
+		"mcid":"EJ6",
+		"sckey":"产量",
+		"vrkey": "E06-PROTO70-产量",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"生产速度",
+		"vrkey": "E06-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"效率",
+		"vrkey": "E06-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"利用率",
+		"vrkey": "E06-PROTO70-利用率",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"运行状态",
+		"vrkey": "E06-PROTO70-运行状态",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"废品率",
+		"vrkey": "E06-PROTO70-废品率",
+		"value": "0"
+	}]
+}, {
+	"id": "ffa7ffa7-ffa7-ffa7-ffa7-ffa7ffa7ffa7",
+	"objectID": "10006N14",
+	"level": 2,
+	"index": 3,
+	"type": "min-panel",
+	"datas": [{
+		"mcid":"EJ6",
+		"sckey":"生产速度",
+		"vrkey": "E06-PROTO70-生产速度",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"效率",
+		"vrkey": "E06-PROTO70-效率",
+		"value": "0"
+	}, {
+		"mcid":"EJ6",
+		"sckey":"废品率",
+		"vrkey": "E06-PROTO70-废品率",
+		"value": "0"
+	}]
+}]

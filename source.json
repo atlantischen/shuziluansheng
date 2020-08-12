@@ -1,0 +1,178 @@
+[{
+  "id": 10001,
+  "name": "地面",
+  "iconPath": "CAD.png",
+  "modePath": "CAD.FBX",
+  "attribute": {
+    "modelInteractive": [0],
+    "modelChildrenType": [0]
+  }
+},
+{
+  "id": 10003,
+  "name": "QJ+GD121+GDX2+CHCTCV机组",
+  "iconPath": "GD121-GDX2-CHCTCV.png",
+  "modePath": "QJ+GD121+GDX2+CHCTCV.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "modelChildrenType": [ "包装机辅机", "玻璃","卷烟机", "包装机主机", "管道_GD-GDX2"],
+    "modelChildrenMechineType": [ "GDX2_CHCTCV",null, "GD121", "GDX2", null]
+  }
+},
+{
+  "id": 10004,
+  "name": "QJ+GD121P+GDX3000+C800机组",
+  "iconPath": "GD121P-GDX3000-C800.png",
+  "modePath": "QJ+GD121P+GDX3000+C800.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "modelChildrenType": [ "玻璃", "包装机主机","卷烟机", "管道_GD02-GDX3000", "包装机辅机"],
+    "modelChildrenMechineType": [ null, "GDX3000","GD121P", null, "GDX3000_C800"]
+  }
+},
+{
+  "id": 10005,
+  "name": "QJ+PASSIM+Focke350机组",
+  "iconPath": "PASSIM-Focke350.png",
+  "modePath": "QJ+PASSIM+Focke350.fbx",
+  "attribute": {
+    "modelInteractive": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "modelChildrenType": ["包装机主机","管道_GD-Focke350",  "包装机辅机", "玻璃", "卷烟机"],
+    "modelChildrenMechineType": ["Focke350", null, "Focke350_Focke350", null, "PASSIM"]
+  }
+},
+{
+  "id": 10006,
+  "name": "QJ+PROTO70+GDX1+CHCTCV机组",
+  "iconPath": "PROTO70-GDX1-CHCTCV.png",
+  "modePath": "QJ+PROTO70+GDX1+CHCTCV.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "modelChildrenType": ["包装机辅机", "玻璃", "包装机主机",  "管道_GD-GDX1","卷烟机"],
+    "modelChildrenMechineType": ["GDX1_CHCTCV", null, "GDX1", null, "PROTO70"]
+  }
+},
+{
+  "id": 10007,
+  "name": "QJ+PROTOM5+FX2机组",
+  "iconPath": "PROTOM5-FX2.png",
+  "modePath": "QJ+PROTOM5+FX2.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "modelChildrenType": [  "卷烟机", "管道_GD-FX2","玻璃","包装机主机", "包装机辅机"],
+    "modelChildrenMechineType": ["PROTOM5", null, null, "FX2", "FX2_FX2"]
+  }
+},
+{
+  "id": 10008,
+  "name": "QJ+PROTOM5+GDX6S+C800机组",
+  "iconPath": "PROTOM5-GDX6S-C800.png",
+  "modePath": "QJ+PROTOM5+GDX6S+C800.fbx",
+  "attribute": {
+    "modelInteractive": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "modelChildrenType": ["包装机主机", "管道_GD-GDX6S","包装机辅机", "玻璃", "卷烟机"],
+    "modelChildrenMechineType": ["GDX6S", null,"GDX6S_C800",   null,"PROTOS2"]
+  }
+},
+{
+  "id": 10009,
+  "name": "QJ+PROTOS2+GDX3000+C800机组",
+  "iconPath": "PROTOS2-GDX3000-C800.png",
+  "modePath": "QJ+PROTOS2+GDX3000+C800.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "modelChildrenType": ["包装机主机", "玻璃", "管道_GD01-GDX3000", "包装机辅机", "卷烟机"],
+    "modelChildrenMechineType": ["GDX3000", null, null, "GDX3000_C800", "PROTOS2"]
+  }
+},
+{
+  "id": 10010,
+  "name": "QJ+ZJ116+ZB48机组",
+  "iconPath": "ZJ116-ZB48.png",
+  "modePath": "QJ+ZJ116+ZB48.fbx",
+  "attribute": {
+    "modelInteractive": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "modelChildrenType": [ "玻璃", "包装机主机", "包装机辅机","卷烟机", "管道GD-ZJ116"],
+    "modelChildrenMechineType": [ null,"ZB48","ZB48_ZB48",  "ZJ116", null]
+  }
+},
+{
+  "id": 10011,
+  "name": "QJ+ZJ118+GDX1+CHCTCV机组",
+  "iconPath": "ZJ118-GDX1-CHCTCV.png",
+  "modePath": "QJ+ZJ118+GDX1+CHCTCV.fbx",
+  "attribute": {
+    "modelInteractive": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "modelChildrenType": [ "包装机主机", "管道_GD-GDX1","包装机辅机", "玻璃","卷烟机"],
+    "modelChildrenMechineType": ["GDX1", null,"GDX1_CHCTCV",null, "ZJ118" ]
+  }
+},
+{
+  "id": 10012,
+  "name": "QJ+ZJ118+GDX2+CHCTCV机组",
+  "iconPath": "ZJ118-GDX2-CHCTCV.png",
+  "modePath": "QJ+ZJ118+GDX2+CHCTCV.fbx",
+  "attribute": {
+    "modelInteractive": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "modelChildrenType": ["玻璃", "管道_GD-GDX2", "包装机辅机", "包装机主机", "卷烟机"],
+    "modelChildrenMechineType": [null, null, "GDX2_CHCTCV", "GDX2", "ZJ118"]
+  }
+}
+]

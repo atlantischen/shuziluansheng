@@ -1,0 +1,21 @@
+[{  "miniID":"二维面板id//新增 便于区分面板的id",  
+    "type":"chartsKind图表类型//新增 便于显示当前二维图表的类型", 
+    "miniBackground":"//“二维面板的背景，外观” 新增  便于显示当前二维图表的背景",
+    "miniAttribute":{   
+    "chartsKind":"// 柱状图,//图表类型",
+    "stylePlan":"1 //配色方案",
+    "panelTitle":"输入标题//标题",
+    "fontSize":"12//文字大小",
+    "colorStyle":"默认 //数据显示风格",
+    "position":{"x":"this.Xmargin","y":"this.Ymargin //x,y轴的间距"},
+    "size":{"x":"width","y":"height //图表的宽高"},
+    "dataStyple":"纯色 //数据显示风格",
+    "opacity":"50 //透明度",
+    "dataitem":"产量 //数据项",
+    "datapoint":[ 
+        {"name":"1-1机台号","sckey":"1"},
+        {"name":"1-3机台号","sckey":"3"}
+    ],
+    "machineTpye":"卷烟机"
+    }
+}]

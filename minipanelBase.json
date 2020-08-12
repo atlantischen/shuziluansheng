@@ -1,0 +1,14 @@
+{
+  "backgroundiamge": [
+    "http://serverIP/cloudEditor/miniplane/default/background01.png",
+    "http://serverIP/cloudEditor/miniplane/default/background02.png",
+    "http://serverIP/cloudEditor/miniplane/default/background03.png",
+    "http://serverIP/cloudEditor/miniplane/default/background04.png",
+    "http://serverIP/cloudEditor/miniplane/default/background05.png",
+    "http://serverIP/cloudEditor/miniplane/default/background06.png"
+  ],
+  "attribute":{
+    "注释": "用户显示添加小面板的操作，后期的属性可以拓展，backgroundiamge 表示当前可以添加的背景图片",
+    "产量":"product"
+}
+}

@@ -512,7 +512,7 @@
                       type="text"
                       id="x"
                       v-model="coordinateX"
-                      @blur="changePositionX('positionX',tagId,coordinateX)"
+                      @change="changePositionX('positionX',tagId,coordinateX)"
                     />
                   </label>
                   <label for="y" class="coordinate_y">
@@ -521,7 +521,7 @@
                       type="text"
                       id="y"
                       v-model="coordinateY"
-                      @blur="changePositionY('positionY',tagId,coordinateY)"
+                      @change="changePositionY('positionY',tagId,coordinateY)"
                     />
                   </label>
                   <label for="z" class="coordinate_Z">
@@ -530,21 +530,21 @@
                       type="text"
                       id="z"
                       v-model="coordinateZ"
-                      @blur="changePositionZ('positionZ',tagId,coordinateZ)"
+                      @change="changePositionZ('positionZ',tagId,coordinateZ)"
                     />
                   </label>
                 </div>
               </div>
               <div class="tag_select">
                 <span>标签类型:</span>
-                <select name id @change="selectFn($event)">
+                <select name id @change="selectFn($event,tagId)">
                   <option v-for="item in tagType" :key="item.uuid" :value="item.uuid">{{item.name}}</option>
                 </select>
               </div>
               <div class="tag_style">
                 <span>标签样式:</span>
                 <div v-for="(item,index) in imgList" :key="item.uuid">
-                  <img class="tag_img" :class="selectImg===index?'active':''" :src="item.tagLocation" alt @click="clickImg(index)" />
+                  <img class="tag_img" :class="selectImg===index?'active':''" :src="item.tagLocation" alt @click="clickImg(index,tagId)" />
                 </div>
               </div>
             </div>
@@ -1040,25 +1040,24 @@ export default {
     init(tagTypeUUid) {
       this.$server.getTagLocation(tagTypeUUid).then((res) => {
         this.tagIcon = res.data.data[0].tagLocation;
-        console.log(res.data.data);
         this.imgList = res.data.data;
+        
       });
     },
-    selectFn(e) {
+    selectFn(e,id) {
+    console.log('change',this.imgList);
       this.tagTypeUUid = e.target.value;
       this.init(this.tagTypeUUid);
-      console.log(this.tagType);
-      this.tagType.forEach(item=>{
-          if(item.uuid ===this.tagTypeUUid){
-                this.tagNames=item.name
-          }
-      })
-      this.selectImg=0
-      console.log(this.tagNames);
+      this.fnwebEdior.updateSceneLabel('type', id, this.tagNames);
+       let path= this.imgList[0].tagLocation
+       console.log(path);
+        this.fnwebEdior.updateSceneLabel('path', id, path);
+   
+      
     },
     // 标签管理
     selectIcon(item,index) {
-        this.init(this.tagTypeUUid);
+    this.init(this.tagType);
       this.CPr_selectIcon_show = true;
       this.CPr_tag = true;
       this.CPr_contDiv = false;
@@ -1080,9 +1079,14 @@ export default {
     },
     // 创建新的标签
     New_icon() {
+        this.tagType.forEach(item=>{
+          if(item.uuid ===this.tagTypeUUid){
+                this.tagNames=item.name
+          }
+      })
       this.CPr_icon = true;
       this.CP_scenario("标签管理");
-      this.fnwebEdior.addSceneLabel("标签01", "报警", this.tagIcon);
+      this.fnwebEdior.addSceneLabel("标签01", this.tagNames, this.tagIcon);
     },
     // 删除标签
     handleDeletes(id) {
@@ -1136,13 +1140,13 @@ export default {
         }
       });
     },
-    clickImg(index){
+    clickImg(index,id){
         this.selectImg=index
-        console.log(';;;;;;;;;');
+       let path= this.imgList[index].tagLocation
+       console.log(path);
+        this.fnwebEdior.updateSceneLabel('path', id, path);
+
     },
-    // handleInput(e) {
-    //   this.val = e.target.value.replace(/[^\d]/g, "");
-    // },
 
     openpanel(item) {
       //菜单栏点击出现弹框的点击触发方法 清空历史记录 小面板库 渲染器 常规 滤镜 保存场景 发布场景
